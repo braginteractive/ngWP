@@ -1,0 +1,51 @@
+/* line 1, stdin */
+.ui-view-container {
+  position: relative;
+  height: 65px; }
+
+/* line 6, stdin */
+[ui-view].ng-enter, [ui-view].ng-leave {
+  position: absolute;
+  left: 0;
+  right: 0;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out; }
+
+/* line 14, stdin */
+[ui-view].ng-enter {
+  opacity: 0; }
+
+/* line 18, stdin */
+[ui-view].ng-enter-active {
+  opacity: 1; }
+
+/* line 22, stdin */
+[ui-view].ng-leave {
+  opacity: 1; }
+
+/* line 26, stdin */
+[ui-view].ng-leave-active {
+  opacity: 0; }
+
+/* line 30, stdin */
+.dropdown-menu {
+  max-width: 250px; }
+
+/* line 34, stdin */
+.dropdown-menu li a {
+  word-wrap: break-word;
+  white-space: normal; }
+
+/* line 39, stdin */
+.searchclear {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  bottom: 0;
+  height: 14px;
+  margin: auto;
+  font-size: 14px;
+  cursor: pointer;
+  color: #ccc; }
+
+/*# sourceMappingURL=sass */

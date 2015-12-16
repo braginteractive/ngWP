@@ -1,19 +1,40 @@
 <!DOCTYPE html>
 <html lang="en" ng-app='app'>
 <head>
+  <base href="/">
   <meta charset="UTF-8">
-  <title></title>
+  <title ng-bind="($title || 'Home') + ' - ngWP'">ngWP</title>
+  <link rel="stylesheet" type="text/css" href="/dist/vendor.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.min.css">
 </head>
-<body ng-controller='GithubCtrl'>
-  <h1>Github Users</h1>
-  <ul>
-    <li ng-repeat='user in users'>
-      <a href='https://github.com/{{user.login}}'>
-        {{user.login}}
-      </a>
-    </li>
-  </ul>
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.14/angular.js"></script>
+<body>
+
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" ui-sref="home">ngWP</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a ui-sref="home">Home</a></li>
+      <li><a ui-sref="posts">Posts</a></li>
+      <li><a ui-sref="page({ slug: 'sample-page' })">Sample Page</a></li>
+    </ul>
+    <search-form></search-form>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="ui-view-container"> 
+    <div ui-view> </div>
+  </div>
+</div>
+
+
+  <script src="/dist/vendor.min.js"></script>
   <script src="app.js"></script>
+
 </body>
 </html>
+
+
+

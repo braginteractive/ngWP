@@ -1,0 +1,8 @@
+<nav>
+  <ul class="pager posts-nav-link">
+    <li ng-hide="postsNavLink.currentPage <= 1" ng-class="{'disabled' : postsNavLink.currentPage <= 1}" class="previous"><a href="{{postsNavLink.prevLink}}"><span aria-hidden="true">&larr;</span> Older</a></li>
+
+    <li ng-hide="postsNavLink.postsCount <= postsNavLink.currentPage" ng-class="{'disabled' : postsNavLink.postsCount <= postsNavLink.currentPage}" class="next"><a href="{{postsNavLink.nextLink}}">Newer <span aria-hidden="true">&rarr;</span></a></li>
+  </ul>
+</nav>
+

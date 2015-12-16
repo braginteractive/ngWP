@@ -1,21 +1,30 @@
 {
-  "name": "ng-modules",
+  "name": "ngWP",
   "version": "1.0.0",
   "author": {
-    "name": "Jeff Dickey",
-    "url": "http://twitter.com/dickeyxxx"
-  },
-  "license": "ISC",
-  "repository": {
-    "github": "dickeyxxx/ng-modules"
+    "name": "Brad Williams",
+    "url": "http://twitter.com/braginteractive"
   },
   "devDependencies": {
-    "express": "^4.5.1",
     "gulp": "^3.8.6",
+    "gulp-autoprefixer": "^2.2.0",
+    "gulp-bower": "0.0.10",
     "gulp-concat": "^2.3.3",
     "gulp-concat-sourcemap": "^1.3.1",
+    "gulp-connect": "^2.2.0",
+    "gulp-include": "^1.1.1",
+    "gulp-jshint": "^1.10.0",
+    "gulp-minify-css": "^1.1.1",
     "gulp-ng-annotate": "^0.2.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.0",
     "gulp-sourcemaps": "^0.4.5",
-    "gulp-uglify": "^0.3.1"
+    "gulp-uglify": "^1.2.0",
+    "gulp-watch": "^4.2.4",
+    "gulp-wrap": "^0.11.0",
+    "gulp-zip": "^3.0.2",
+    "jshint-stylish": "^1.0.2"
   }
 }
