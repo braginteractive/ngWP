@@ -3,6 +3,9 @@ ngWP
 
 Angular app that uses the WP Rest API plugin.
 
+[http://braginteractive.com/ngwp](DEMO) 
+[http://braginteractive.com/the-adventure-of-building-my-first-angular-app-with-the-wordpress-rest-api/](Blog Post) about building ngWP 
+
 
 #### Setup
 Clone or download ngWP.

@@ -44,6 +44,7 @@ gulp.task('zip', function () {
    './js/**/*',
    './css/*',
    './dist/*',
+   './fonts/*',
    './sass/**/*',
    './partials/**/*',
    '!bower_components',
